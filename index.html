@@ -3,143 +3,182 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>YNA ShopAcc</title>
+<title>YNA SHOP ACC PUBG</title>
 
 <style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
 body{
-    margin:0;
-    background:#fff;
-    font-family:Arial;
+background:#0d0d0d;
+color:white;
 }
 
-.header{
-    background:#fff;
-    text-align:center;
-    padding:20px;
-    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+header{
+background:linear-gradient(90deg,#ffb400,#ff7300);
+padding:20px;
+text-align:center;
 }
 
-.header h1{
-    color:#d4a017;
-    font-size:35px;
-}
-
-.acc{
-    width:90%;
-    margin:auto;
-    background:white;
-    margin-top:20px;
-    border-radius:20px;
-    overflow:hidden;
-    box-shadow:0 0 10px rgba(0,0,0,.2);
-}
-
-.acc img{
-    width:100%;
-}
-
-.info{
-    padding:15px;
-}
-
-.price{
-    color:red;
-    font-size:35px;
-    font-weight:bold;
-}
-
-.btn{
-    display:inline-block;
-    text-decoration:none;
-    background:#d4a017;
-    color:white;
-    padding:12px 20px;
-    border-radius:10px;
+header h1{
+font-size:40px;
 }
 
 .menu{
-    position:fixed;
-    bottom:0;
-    width:100%;
-    background:#222;
-    display:flex;
-    justify-content:space-around;
-    padding:15px 0;
+background:#111;
+padding:15px;
+display:flex;
+justify-content:center;
+gap:30px;
 }
 
 .menu a{
-    color:white;
-    text-decoration:none;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.banner{
+padding:80px 20px;
+text-align:center;
+background:url('https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1600') center/cover;
+}
+
+.banner h2{
+font-size:60px;
+color:#ffd700;
+text-shadow:2px 2px 10px black;
+}
+
+.banner p{
+font-size:22px;
+margin-top:15px;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:30px 0;
+}
+
+.title{
+text-align:center;
+font-size:35px;
+margin-bottom:20px;
+color:#ffd700;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1a1a1a;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 0 15px rgba(255,180,0,.3);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.info{
+padding:15px;
+}
+
+.price{
+font-size:30px;
+color:#ff3c3c;
+font-weight:bold;
+margin:10px 0;
+}
+
+.btn{
+display:block;
+text-align:center;
+background:#ffb400;
+color:black;
+padding:12px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+
+footer{
+margin-top:40px;
+padding:20px;
+text-align:center;
+background:#111;
 }
 </style>
 </head>
 
 <body>
 
-<div class="header">
-<h1>👑 YNA ShopAcc ✓ Uy Tín 🚀</h1>
-<p>Uy tín - Chất lượng - Giá tốt</p>
-</div>
-
-<div class="acc">
-<img src="assets/acc1.jpg">
-
-<div class="info">
-<h2>ACC PUBG VIP</h2>
-
-<div class="price">
-34M
-</div>
-
-<br>
-
-<a class="btn"
-href="https://zalo.me/84328724943">
-Liên hệ mua
-</a>
-
-</div>
-</div>
-
-<div class="acc">
-<img src="assets/acc2.jpg">
-
-<div class="info">
-<h2>ACC PUBG VIP</h2>
-
-<div class="price">
-39M5
-</div>
-
-<br>
-
-<a class="btn"
-href="https://zalo.me/84328724943">
-Liên hệ mua
-</a>
-
-</div>
-</div>
+<header>
+<h1>👑 YNA SHOP ACC PUBG 👑</h1>
+<p>Uy Tín - Chất Lượng - Giá Rẻ</p>
+</header>
 
 <div class="menu">
+<a href="#">Trang Chủ</a>
+<a href="#">PUBG</a>
+<a href="#">Liên Hệ</a>
+</div>
 
-<a href="#">
-🏠 Home
-</a>
+<div class="banner">
+<h2>ACC PUBG MOBILE</h2>
+<p>Nhiều skin hiếm - Rank cao - Giá tốt</p>
+</div>
 
-<a href="tel:84328724943">
-📞 Hotline
-</a>
+<div class="container">
+<h2 class="title">🔥 ACC NỔI BẬT 🔥</h2>
 
-<a href="https://zalo.me/84328724943">
-💬 Zalo
-</a>
+<div class="grid">
 
-<a href="https://www.facebook.com/share/1EQ74kdcsq/?mibextid=wwXIfr">
-📘 Facebook
-</a>
+<div class="card">
+<img src="https://picsum.photos/600/400?1">
+<div class="info">
+<h3>ACC VIP 01</h3>
+<div class="price">350K</div>
+<a class="btn" href="#">Liên Hệ Mua</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/600/400?2">
+<div class="info">
+<h3>ACC VIP 02</h3>
+<div class="price">550K</div>
+<a class="btn" href="#">Liên Hệ Mua</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/600/400?3">
+<div class="info">
+<h3>ACC VIP 03</h3>
+<div class="price">850K</div>
+<a class="btn" href="#">Liên Hệ Mua</a>
+</div>
+</div>
 
 </div>
+</div>
+
+<footer>
+© 2026 YNA SHOP ACC PUBG
+</footer>
 
 </body>
 </html>
